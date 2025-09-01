@@ -1,5 +1,10 @@
 // Refer to Task 2 in your Instructions to complete this task
 
-for (let i = 0; i < 1; i++) {
-    console.log("This is Task Two!");
-  };
+// Tarea 2: Reemplazar múltiplos de 3 con "Fizz"
+for (let b = 1; b <= 105; b++) {
+  if (b % 3 === 0) {
+    console.log("Fizz");
+  } else {
+    console.log(b);
+  }
+}

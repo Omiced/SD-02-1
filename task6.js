@@ -1,5 +1,16 @@
 // Refer to Task 6 in your Instructions to complete this task
 
-for (let i = 0; i < 1; i++) {
-    console.log("This is Task Six!");
-  };
+// Tarea Extra 6: Guardar resultados en un array
+let resultados = [];
+
+for (let e = 1; e <= 105; e++) {
+  let salida = "";
+
+  if (e % 3 === 0) salida += "Fizz";
+  if (e % 5 === 0) salida += "Buzz";
+  if (e % 7 === 0) salida += "Woof";
+
+  resultados.push(salida || e);
+}
+
+console.log(resultados);
