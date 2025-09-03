@@ -25,4 +25,4 @@ for (let f = 1; f <= 105; f++) {
   resultados.push(salida || f);
 }
 
-resultados.forEach(item => console.log(item)); // Esto lo pongo para que node pueda mostrar todos los elementos del array ya que son muchos :D
+resultados.forEach(item => console.log(item)); // Esto lo pongo para que node pueda mostrar todos los elementos del array ya que son muchos
